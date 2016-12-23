@@ -8,3 +8,4 @@ The [hardware](../../wiki/BRD161205 R0) uses a VCTCXO with a **frequency stabili
 # Calibration
 * For calibrating you'll need a frequency source that is even better than this oscillator.  Preferably, that reference is also cheap.  The **GPSDO** (GPS disciplined oscillator) is a widely used solution.  If you want it cheaper (and with less accuracy), you can take the 1PPS output of a Quectel L86-M33 GPS module.  This 1Hz pulse has a < 15ns accuracy, which is 15ppb.  
 * **Yearly calibration** is needed, because the frequency of the VCTCXO will drift away by 1ppm/year.
+*  [Some cheap custom hardware](../../wiki/BRD161206 R0) has been designed that allows to calibrate the oscillator.
