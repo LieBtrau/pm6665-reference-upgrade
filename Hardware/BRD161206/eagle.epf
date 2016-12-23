@@ -8,6 +8,7 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="/home/ctack/git/electronics-design-data/CadsoftEagle/libraries/lieBtrau.lbr"
+UsedLibrary="drilegend.lbr"
 
 [Win_1]
 Type="Control Panel"
